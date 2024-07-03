@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome Cdnjs link-->
+    <link rel="stylesheet" href="font-awesome/css/all.min.css" />
+
+    <!-- Custom css file link-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>HNG Task 1</title>
+  </head>
+  <body>
+    <!-- Header Section Starts -->
+    <header>
+      <div class="user">
+        <img src="img/mic.jpeg" alt="" data-testid="slackProfilePicture" />
+        <h3 class="name">Mykel</h3>
+        <p class="post">Frontend Developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#techgoals">My tech goals</a></li>
+          <li><a href="#quicklinks">Quick links</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Mykel</span></h1>
+      <p>
+        I am a frontend developer and passionate about web development. i am a
+        student of the HNG Internship.
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+    <!-- Home section Ends -->
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about </span>me</h1>
+      <div class="row">
+        <div class="info">
+          <h3 data-testid="slackDisplayName">
+            <span>Slack name :</span> Micheal Olowookere
+          </h3>
+
+          <h3 data-testid="slackEmail">
+            <span>Email :</span> olowookeremicheal9568@gmail.com
+          </h3>
+          <h3 data-testid="currentTimeUTC">
+            <span>Current Time (UTC):</span> <span id="current-time"></span>
+          </h3>
+          <h3 data-testid="currentDay">
+            <span>Current Day (UTC):</span> <span id="current-day"></span>
+          </h3>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>50</span>
+            <h3>project completed</h3>
+          </div>
+
+          <div class="box">
+            <span>150</span>
+            <h3>happy clients</h3>
+          </div>
+
+          <div class="box">
+            <span>3</span>
+            <h3>Awards won</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Tech goals section starts -->
+    <section class="education" id="techgoals">
+      <h1 class="heading"><span>My Tech Goals </span> for the Next 2 Years</h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>1</span>
+          <h3>Master Full-Stack Development</h3>
+          <p>
+            Become proficient in both front-end and back-end technologies,
+            including frameworks like React.js, Node.js, and Express.js
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2</span>
+          <h3>Expand Cloud Computing Skills</h3>
+          <p>
+            Gain expertise in cloud platforms such as AWS or Azure, focusing on
+            deployment, scalability, and cost optimization
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>3</span>
+          <h3>Contribute to Open Source</h3>
+          <p>
+            Actively contribute to open-source projects, improving coding skills
+            and giving back to the community
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>4</span>
+          <h3>Build a Strong Professional Network</h3>
+          <p>
+            Attend tech conferences, join online communities, and network with
+            industry professionals to foster learning and career growth
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>5</span>
+          <h3>Gain Industry Certifications</h3>
+          <p>
+            Obtain relevant certifications like AWS Certified Solutions
+            Architect or Google Professional Data Engineer to validate skills
+            and enhance career opportunities.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>6</span>
+          <h3>Start a Personal Tech Blog</h3>
+          <p>
+            Share knowledge, experiences, and insights gained throughout the
+            journey to contribute to the tech community and establish a personal
+            brand.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Tech goals section ends -->
+
+    <!-- Quick links section starts -->
+    <section class="quick-links" id="quicklinks">
+      <h1 class="heading"><span>Quick Links</span></h1>
+      <ul>
+        <li>
+          <a href="http://hng.tech/learn" data-testid="hngLink"
+            >HNG tech and Learn
+          </a>
+        </li>
+        <li>
+          <a href="http://keyword.dog/" data-testid="keywordLink"
+            >Keyword Dog</a
+          >
+        </li>
+        <li>
+          <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">
+            Scrape any web</a
+          >
+        </li>
+      </ul>
+    </section>
+    <!-- Quick links section ends -->
+
+    <!-- JavaScript file -->
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
